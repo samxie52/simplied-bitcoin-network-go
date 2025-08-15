@@ -4,7 +4,7 @@ import "time"
 
 // 版本信息
 const (
-	AppName    = "Simplified Bitcoin Network"
+	AppName    = "Simplied Bitcoin Network"
 	AppVersion = "1.0.0"
 
 	// 协议版本

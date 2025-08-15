@@ -37,11 +37,11 @@ gopkg.in/yaml.v3 v3.0.1              // YAML配置解析
 
 ```bash
 # 创建项目目录
-mkdir simplified-bitcoin-network-go
-cd simplified-bitcoin-network-go
+mkdir simplied-bitcoin-network-go
+cd simplied-bitcoin-network-go
 
 # 初始化Go模块
-go mod init github.com/yourusername/simplified-bitcoin-network-go
+go mod init github.com/yourusername/simplied-bitcoin-network-go
 
 # 添加核心依赖
 go get github.com/gorilla/mux
@@ -69,7 +69,7 @@ mkdir -p benchmark
 完整的目录结构应该如下：
 
 ```
-simplified-bitcoin-network-go/
+simplied-bitcoin-network-go/
 ├── cmd/                        # 可执行程序入口
 │   ├── node/                  # 主节点程序
 │   ├── cli/                   # 命令行工具
@@ -241,7 +241,7 @@ check-go:
 ```yaml
 # 简化版比特币网络配置文件
 app:
-  name: "Simplified Bitcoin Network"
+  name: "Simplied Bitcoin Network"
   version: "1.0.0"
   debug: false
   log_level: "info"
@@ -464,7 +464,7 @@ type TLSConfig struct {
 func DefaultConfig() *Config {
     return &Config{
         App: AppConfig{
-            Name:     "Simplified Bitcoin Network",
+            Name:     "Simplied Bitcoin Network",
             Version:  "1.0.0",
             Debug:    false,
             LogLevel: "info",
@@ -699,7 +699,7 @@ import "time"
 
 // 版本信息
 const (
-    AppName    = "Simplified Bitcoin Network"
+    AppName    = "Simplied Bitcoin Network"
     AppVersion = "1.0.0"
     
     // 协议版本
@@ -951,7 +951,7 @@ echo "📝 下一步可以开始开发区块链核心功能。"
 
 ### 3. 完整目录结构
 ```
-simplified-bitcoin-network-go/
+simplied-bitcoin-network-go/
 ├── cmd/                    ✅ 可执行程序目录
 ├── pkg/                    ✅ 核心功能包目录  
 ├── web/                    ✅ Web前端目录
@@ -1048,7 +1048,7 @@ import (
     "fmt"
     "log"
     
-    "github.com/yourusername/simplified-bitcoin-network-go/pkg/utils"
+    "github.com/yourusername/simplied-bitcoin-network-go/pkg/utils"
 )
 
 func main() {
@@ -1072,7 +1072,7 @@ rm test_config.go
 
 **预期输出**:
 ```
-应用名称: Simplified Bitcoin Network
+应用名称: Simplied Bitcoin Network
 应用版本: 1.0.0
 网络端口: 8080
 RPC端口: 8545
@@ -1208,7 +1208,7 @@ bash scripts/verify-setup.sh
 pwd
 
 # 确保在项目根目录执行
-cd /path/to/simplified-bitcoin-network-go
+cd /path/to/simplied-bitcoin-network-go
 
 # 检查配置文件是否存在
 ls -la config/config.yaml

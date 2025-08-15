@@ -109,7 +109,7 @@ type TLSConfig struct {
 func DefaultConfig() *Config {
 	return &Config{
 		App: AppConfig{
-			Name:     "Simplified Bitcoin Network",
+			Name:     "Simplied Bitcoin Network",
 			Version:  "1.0.0",
 			Debug:    false,
 			LogLevel: "info",

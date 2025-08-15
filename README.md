@@ -1,4 +1,4 @@
-# 简化版比特币网络 (Simplified Bitcoin Network)
+# 简化版比特币网络 (Simplied Bitcoin Network)
 
 🚀 **基于 Go 语言的去中心化区块链网络实现**
 
@@ -141,7 +141,7 @@ graph TB
 ## 📁 项目目录结构
 
 ```
-simplified-bitcoin-network-go/
+simplied-bitcoin-network-go/
 ├── cmd/
 │   ├── node/
 │   │   └── main.go              # 节点启动入口
@@ -246,8 +246,8 @@ simplified-bitcoin-network-go/
 
 1. **克隆项目**
 ```bash
-git clone https://github.com/yourusername/simplified-bitcoin-network-go.git
-cd simplified-bitcoin-network-go
+git clone https://github.com/yourusername/simplied-bitcoin-network-go.git
+cd simplied-bitcoin-network-go
 ```
 
 2. **安装依赖**
