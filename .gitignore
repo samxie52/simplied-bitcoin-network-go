@@ -56,3 +56,33 @@ __debug_bin
 # 模块缓存
 go.work
 go.work.sum
+
+
+# 前端项目
+web/node_modules
+web/.vscode
+web/dist
+
+# Logs
+web/logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+web/node_modules
+web/dist-ssr
+web/*.local
+
+# Editor directories and files
+web/.vscode/*
+web/!.vscode/extensions.json
+web/.idea
+web/.DS_Store
+web/*.suo
+web/*.ntvs*
+web/*.njsproj
+web/*.sln
+web/*.sw?
