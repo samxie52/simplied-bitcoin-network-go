@@ -144,8 +144,12 @@ func TargetToBits(target *big.Int) uint32 {
 
 // GetMaxTarget 获取最大目标值（最低难度）
 func GetMaxTarget() *big.Int {
-	// 比特币的最大目标值：0x1d00ffff
-	return BitsToTarget(MaxTarget)
+	// 直接构造最大目标值，避免调用BitsToTarget造成循环依赖
+	// 0x1d00ffff 对应的目标值是 0x00ffff * 2^(8*(0x1d-3))
+	// = 0x00ffff * 2^(8*26) = 0x00ffff * 2^208
+	target := big.NewInt(0x00ffff)
+	target.Lsh(target, 208) // 左移208位
+	return target
 }
 
 // CalculateDifficulty 根据目标值计算难度
